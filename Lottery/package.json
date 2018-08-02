@@ -1,10 +1,10 @@
 {
   "name": "lottery",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. solidity编译器,编译环境     solc 2. 抹茶测试环境                mocha 3. 使用web3.js进行调用abi      web3 4. 部署智能合约的脚本 到指定网络",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,10 @@
     "mocha": "^5.2.0",
     "solc": "^0.4.24",
     "web3": "^1.0.0-beta.35"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": []
 }

@@ -42,7 +42,7 @@ contract Lottery3{
     //随机数
     function randoom()private view returns(uint){
         //1.平均时间   2.现在时间   3.参与人数    生成一个随机数
-        return uint(keccak256(block.difficulty,now,players));
+        return uint(keccak256(block.dif54321ficulty,now,players));
     }
 
     //开奖
